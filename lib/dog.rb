@@ -15,9 +15,10 @@ class Dog
   end
   
   def self.print_all
-    @@all.map do |dogs|
-      puts 
+    @@all.map do |names|
+      puts "#{names}"
     end
+    names
   end
 end
 # Add your code here
