@@ -9,5 +9,11 @@ class Dog
   def self.all
     @@all
   end
+  
+  def self.print_all
+    @@all.collect do |dogs|
+      puts "#{dogs}"
+    end
+  end
 end
 # Add your code here
