@@ -10,6 +10,10 @@ class Dog
     @@all
   end
   
+  def self.clear_all
+    
+  end
+  
   def self.print_all
     @@all.collect do |dogs|
       puts "#{dogs}"
