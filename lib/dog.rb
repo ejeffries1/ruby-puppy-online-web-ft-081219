@@ -15,7 +15,7 @@ class Dog
   end
   
   def self.print_all
-    @@all
+    return @@all
   end
 end
 # Add your code here
